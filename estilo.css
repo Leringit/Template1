@@ -1,0 +1,251 @@
+@charset "utf8";
+
+.cabeçalho {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    width: 90%;
+    margin-bottom: 20px;
+    height: 98px;
+}
+
+header {
+    width: 1240px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("images/bg-hero-desktop.svg");
+    background-size: cover;
+    background-color: hsl(193, 100%, 96%);
+    margin-bottom: 120px;
+}
+
+#botão1 {
+    color: hsl(192, 100%, 9%);
+    background-color: hsl(0, 0%, 100%);
+    width: 150px;
+    height: 40px;
+    border-radius: 37px;
+    border: none;
+    font-weight: 700;
+    -webkit-box-shadow: 0px 0px 8px 3px rgb(0 0 0 / 0.05);
+    box-shadow: 0px 0px 8px 3px rgb(0 0 0 / 0.05);
+}
+
+#botão1:hover {
+    color: rgba(255, 255, 255, 0.808);
+    background-color: hsla(322, 100%, 66%, 0.5);
+}
+
+.titulo1 {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin-bottom: 50px;
+}
+
+#titulo2 {
+    font-size: 32px;
+}
+
+.container1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: hsl(192, 100%, 9%);
+}
+
+#container1txt {
+    font-size: 15px;
+}
+
+#botão2 {
+    color: white;
+    background-color: hsl(322, 100%, 66%);
+    width: 280px;
+    height: 55px;
+    border-radius: 37px;
+    border: none;
+    font-weight: 700;
+}
+
+#mockups {
+    width: 55%;
+}
+
+.imgtamanho {
+    width: 360px;
+}
+
+.container2 {
+    width: 1240px;
+    display: flex;
+    justify-content: center;
+}
+
+#meio {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.meio_anchor {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.img1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    -webkit-box-shadow: 0px 0px 8px 3px rgb(0 0 0 / 0.05);
+    box-shadow: 0px 0px 8px 3px rgb(0 0 0 / 0.05);
+    border-radius: 8px;
+    border-width: 100px;
+    width: 90%;
+    height: 360px;
+}
+
+.titulo3 {
+    font-family: 'Open Sans';
+    color: hsl(192, 100%, 9%);
+    font-weight: 600;
+    font-size: 28px;
+}
+
+body {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 18px;
+}
+
+footer {
+    background-color: hsl(192, 100%, 9%);
+    color: hsl(0, 0%, 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1240px;
+    font-size: 14px;
+    margin-top: 300px;
+    position: relative;
+}
+
+.flutuante {
+    -webkit-box-shadow: 0px 0px 8px 3px rgb(0 0 0 / 0.05);
+    box-shadow: 0px 0px 8px 3px rgb(0 0 0 / 0.05);
+}  
+
+.quadroflutuante {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    border-width: 100px;
+    width: 57%;
+    height: 230px;
+    top: -45%;
+    background-color: white;
+}
+
+#botão2 {
+    color: white;
+    background-color: hsl(322, 100%, 66%);
+    width: 350px;
+    height: 75px;
+    border-radius: 37px;
+    border: none;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+#logo {
+    width: 150px;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+  
+.container1txt {
+    color: hsl(208, 11%, 55%);
+}
+
+.flex {
+    display: flex;
+}
+
+#logo {
+    width: 150px;
+}
+
+.coluna {
+    flex-direction: column;
+}
+
+.corlink {
+    text-decoration: none;
+    color: white;
+}
+
+.link1 {
+    text-decoration: none;
+    color: white;
+}
+  
+.link1:hover {
+    text-decoration: underline;
+}
+
+.direitos {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    height: 151px;
+}
+
+#containerlogos{
+    width: 90%;
+}
+
+.icones {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+  
+.icones:hover {
+    color: hsl(322, 100%, 66%);
+}
+
+.icones2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid;
+    border-width: 1px;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+}
+
+.iconeimg {
+    width: 24px;
+    height: 24px;
+    margin-right: 12px;
+}
+
+#data {
+    width: 380px;
+    font-size: 14px;
+}
+
+#containerlogos {
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+  
+#titulo3{
+    color: hsl(192, 100%, 9%);
+    font-size: 28px;
+    margin-bottom: 32px;
+}
